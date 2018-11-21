@@ -18,7 +18,7 @@ using Octostache;
 namespace Calamari.Aws.Integration
 {
     /// <summary>
-    /// This service is used to generate the appropiate environment variables required to authentication
+    /// This service is used to generate the appropriate environment variables required to authentication
     /// custom scripts and the C# AWS SDK code exposed as Calamari commands that interat with AWS.
     /// </summary>
     public class AwsEnvironmentGeneration : IAwsEnvironmentGeneration, IScriptWrapper
